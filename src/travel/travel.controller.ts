@@ -20,7 +20,7 @@ export class TravelController {
     return this.travelService.volplan();
   }
 
-  @Get('/all')
+  @Get()
   findAll() {
     return this.travelService.findAll();
   }
