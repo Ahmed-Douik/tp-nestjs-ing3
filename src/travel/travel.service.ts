@@ -23,4 +23,8 @@ export class TravelService {
   remove(id: number) {
     return `This action removes a #${id} travel`;
   }
+
+  volplan(): string {
+    return 'Planifier un nouveau voyage ici';
+  }
 }
